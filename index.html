@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>PCAARD Dashboard</title>
+		<meta charset = "utf-8">
+		<meta name ="viewport" content = "width = device-width, initial-scale = 1">
+		<link rel ="stylesheet" href = "bootstrap\css\bootstrap.min.css">
+		<script src = "jquery-3.2.1.min.js"></script>
+		<script src = "projscripts.js"></script>
+	</head>
+
+	<body>
+
+
+		<!-- navigation menu -->
+		<div class = "container-fluid">
+			<nav class = "navbar navbar-inverse">
+				<div class = "container-fluid">
+					<div class = "navbar-header">
+						<a class = "navbar-brand" href="#"> PCAARRD KM</a>
+					</div>
+
+					<ul class = "nav navbar-nav">
+
+						<li class = "active"><a href="#">Summary</a></li>
+						<li><a href="#">Analytics</a></li>
+						<li><a href="#">Report Generation</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<!-- message board heading -->
+		<div class = "container-fluid">
+			<div class = "panel panel-primary">
+				<div class = "panel-heading">PCAARRD Message Board Summary</div>
+				<div class = "panel-body">
+					<div class = "panel-group">
+						<div class = "col-sm-5">
+							<div class = "panel panel-primary">
+								<div class = "panel-heading">Select Desired Options</div>
+								<div class = "panel-body">
+									<form class = "catform">
+										<legend>Category</legend>
+										<p id = "cat">
+											<br><br><br><br><br><br><br>
+										</p>
+									</form>
+
+									<form>
+										<legend>Forum</legend>
+										<p id = "for">
+											<br><br><br><br><br><br><br>
+											<input type = "radio" name = "cb1" value = "I">I<br>
+											<input type = "checkbox" name = "cb2" value = "Love">Love<br>
+											<input type = "checkbox" name = "cb3" value = "You">You<br>
+										</p>
+									</form>
+											
+
+									<form>
+										<legend>Topic</legend>
+										<p id = "top">
+											<br><br><br><br><br><br><br>
+										</p>
+									</form>
+
+									<form>
+										<legend>Date Covered</legend>
+										<p id = "dat">
+											<br><br><br><br><br><br><br>
+										</p>
+
+									</form>
+								</div>
+							</div>
+						</div>
+
+						<div class = "col-sm-7">
+							<div class = "panel panel-primary">
+								<div class = "panel-heading">Result</div>
+								<div class = "panel-body" height = "200">
+									<img src = "dummyImage.gif" height = "500" width = "500">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</body>
+
+	</html>
+
+</html>

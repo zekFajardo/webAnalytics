@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkbox Demo</title>
+	<script src = "jquery-3.2.1.min.js">
+	</script>
+	<!-- <script src = "\PCAARRD_webAppDev\projscripts.js">
+	</script> -->
+
+	<script>
+		$(document).ready(function(){
+			//var elemCheckBox = ;
+			//console.log(elemCheckBox)
+			$(document.getElementById(".checkitem")).on("click", function(){
+				$("div").append($(this).val() + "<br>");
+				//$("input").hide();
+			})
+		});
+
+	</script>
+</head>
+<body>
+	<form id = "check">
+		<p>
+			<input type = "radio" name = "cb1" value = "I">I<br>
+			<input type = "checkbox" name = "cb2" value = "Love">Love<br>
+			<input type = "checkbox" name = "cb3" value = "You">You<br>
+		</p>
+	</form>
+
+	<form>
+		<p>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt1' value = 'Publications'> Publications<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt2' value = 'Socio Economics'> Socio Economics<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt3' value = 'Livestock'> Livestock<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt4' value = 'Forestry'> Forestry<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt5' value = 'Crops'> Crops<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt6' value = 'Agricultural Resources Management'> Agricultural Resources Management<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt7' value = 'Sundry'> Sundry<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt8' value = 'Marine Resources'> Marine Resources<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt9' value = 'Inland Aquatic Resources'> Inland Aquatic Resources<br>
+			<input type = 'checkbox' class = 'checkitem' name = 'radopt10' value = 'Environment'> Environment<br>
+
+		</p>
+	</form>
+
+	<div id = "output">
+	</div>
+
+
+</body>
+</html>
